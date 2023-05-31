@@ -36,4 +36,4 @@ nombreyapellidos=nombre + ' ' + apellido + ' ' + segundoapellido
 esalfa=nombreyapellidos.isalpha()
 print('¿Tu nombre completo es un carácter de tipo alfanumérico? ', esalfa)
 
-#Las fechas no las he visto aún (prueba)
+#Las fechas no las he visto aún (prueba2)
