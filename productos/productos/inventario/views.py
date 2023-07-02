@@ -22,7 +22,7 @@ class Productos(View): #Clase Productos con Get, ya que no introduciremos inform
 
 class Formulario(View): #Clase Formulario con Post y Get, para enviar información a la BD
     template_name = 'formulario.html'
-
+    
     def post(self, request):
         form = ProductoForm(request.POST)
         if form.is_valid():
